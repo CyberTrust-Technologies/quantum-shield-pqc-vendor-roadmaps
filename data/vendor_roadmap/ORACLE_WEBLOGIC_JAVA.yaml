@@ -1,0 +1,15 @@
+device_type: ORACLE_WEBLOGIC_JAVA
+vendor: Oracle
+product: WebLogic / Java SE
+pqc_status: In Progress
+pqc_plan: Java 25 LTS (planned 2025)
+hybrid_ready_version: Java 21+ (ML-KEM via JEP 452 preview)
+full_pqc_version: Java 25 LTS (planned 2025)
+algorithms_supported: ML-KEM (JEP 452), ML-DSA (JEP 497/498)
+eta: Java 25 LTS (planned 2025)
+recommended_actions: Track Oracle PQC announcements; plan upgrade once Java 25 LTS
+  (planned 2025) ships.
+source_url: https://openjdk.org/jeps/452
+source_type: vendor_announcement
+last_verified_date: '2026-04-08'
+verified_by: CyberTrust Analyst

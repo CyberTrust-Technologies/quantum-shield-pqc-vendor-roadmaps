@@ -1,0 +1,15 @@
+device_type: JUNIPER_NETWORKS
+vendor: Juniper Networks
+product: Junos OS / SRX
+pqc_status: In Progress
+pqc_plan: Junos 24.x (planned 2025)
+hybrid_ready_version: Junos 23.4+ (ML-KEM hybrid IPsec)
+full_pqc_version: Junos 24.x (planned 2025)
+algorithms_supported: ML-KEM, ML-DSA
+eta: Junos 24.x (planned 2025)
+recommended_actions: Track Juniper Networks PQC announcements; plan upgrade once Junos
+  24.x (planned 2025) ships.
+source_url: https://www.juniper.net/documentation/us/en/software/junos/vpn-ipsec/topics/topic-map/post-quantum-pqc.html
+source_type: vendor_announcement
+last_verified_date: '2026-04-08'
+verified_by: CyberTrust Analyst

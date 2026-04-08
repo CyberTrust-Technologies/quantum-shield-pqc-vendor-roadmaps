@@ -1,0 +1,15 @@
+device_type: AWS_CLOUDHSM
+vendor: Amazon Web Services
+product: CloudHSM
+pqc_status: Roadmap
+pqc_plan: TBD (2025-2026)
+hybrid_ready_version: TBD
+full_pqc_version: TBD (2025-2026)
+algorithms_supported: TBD
+eta: TBD (2025-2026)
+recommended_actions: Track Amazon Web Services PQC announcements; plan upgrade once
+  TBD (2025-2026) ships.
+source_url: https://aws.amazon.com/cloudhsm/
+source_type: vendor_announcement
+last_verified_date: '2026-04-08'
+verified_by: CyberTrust Analyst

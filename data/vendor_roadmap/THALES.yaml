@@ -1,0 +1,15 @@
+device_type: THALES
+vendor: Thales
+product: Luna HSM / CipherTrust
+pqc_status: Available
+pqc_plan: Available now
+hybrid_ready_version: Luna HSM 7.8+ (ML-KEM, ML-DSA); CipherTrust 2.13+
+full_pqc_version: Available now
+algorithms_supported: ML-KEM, ML-DSA, SLH-DSA, BIKE, HQC
+eta: Available now
+recommended_actions: Track Thales PQC announcements; plan upgrade once Available now
+  ships.
+source_url: https://cpl.thalesgroup.com/encryption/post-quantum-cryptography
+source_type: vendor_announcement
+last_verified_date: '2026-04-08'
+verified_by: CyberTrust Analyst

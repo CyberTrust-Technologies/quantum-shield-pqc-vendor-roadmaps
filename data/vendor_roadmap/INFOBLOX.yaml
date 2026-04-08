@@ -1,0 +1,15 @@
+device_type: INFOBLOX
+vendor: Infoblox
+product: NIOS / BloxOne DDI
+pqc_status: Roadmap
+pqc_plan: NIOS 10.x / BloxOne 5.x (planned 2025-2026)
+hybrid_ready_version: BloxOne DDI (cloud) -- TLS 1.3 with PQC hybrid planned 2025
+full_pqc_version: NIOS 10.x / BloxOne 5.x (planned 2025-2026)
+algorithms_supported: ML-KEM (planned for DNSSEC), ML-DSA (planned)
+eta: NIOS 10.x / BloxOne 5.x (planned 2025-2026)
+recommended_actions: Track Infoblox PQC announcements; plan upgrade once NIOS 10.x
+  / BloxOne 5.x (planned 2025-2026) ships.
+source_url: https://www.infoblox.com/company/blog/post-quantum-cryptography-and-dns/
+source_type: vendor_announcement
+last_verified_date: '2026-04-08'
+verified_by: CyberTrust Analyst

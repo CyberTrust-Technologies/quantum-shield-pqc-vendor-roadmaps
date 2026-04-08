@@ -1,0 +1,15 @@
+device_type: MICROSOFT_AZURE
+vendor: Microsoft Azure
+product: Azure Key Vault / TLS
+pqc_status: In Progress
+pqc_plan: Azure Key Vault HSM PQC planned 2025-2026
+hybrid_ready_version: 'Azure TLS: hybrid ML-KEM in preview 2025'
+full_pqc_version: Azure Key Vault HSM PQC planned 2025-2026
+algorithms_supported: ML-KEM, ML-DSA (planned)
+eta: Azure Key Vault HSM PQC planned 2025-2026
+recommended_actions: Track Microsoft Azure PQC announcements; plan upgrade once Azure
+  Key Vault HSM PQC planned 2025-2026 ships.
+source_url: https://learn.microsoft.com/en-us/azure/security/fundamentals/post-quantum-cryptography
+source_type: vendor_announcement
+last_verified_date: '2026-04-08'
+verified_by: CyberTrust Analyst

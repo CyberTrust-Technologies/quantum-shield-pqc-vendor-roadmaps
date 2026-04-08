@@ -1,0 +1,15 @@
+device_type: AWS
+vendor: Amazon Web Services
+product: AWS KMS / ACM / CloudFront
+pqc_status: Available
+pqc_plan: Available now for TLS; KMS PQC signing planned 2025
+hybrid_ready_version: FIPS 203
+full_pqc_version: Available now for TLS; KMS PQC signing planned 2025
+algorithms_supported: ML-KEM, Kyber
+eta: Available now for TLS; KMS PQC signing planned 2025
+recommended_actions: Track Amazon Web Services PQC announcements; plan upgrade once
+  Available now for TLS; KMS PQC signing planned 2025 ships.
+source_url: https://aws.amazon.com/blogs/security/post-quantum-cryptography-migration-for-tls/
+source_type: auto_aggregated
+last_verified_date: '2026-04-08'
+verified_by: CQS Autosync

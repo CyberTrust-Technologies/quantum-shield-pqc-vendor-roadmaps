@@ -1,0 +1,15 @@
+device_type: SONICWALL
+vendor: SonicWall
+product: SonicOS / NSa
+pqc_status: Roadmap
+pqc_plan: TBD (2026)
+hybrid_ready_version: TBD
+full_pqc_version: TBD (2026)
+algorithms_supported: TBD
+eta: TBD (2026)
+recommended_actions: Track SonicWall PQC announcements; plan upgrade once TBD (2026)
+  ships.
+source_url: https://www.sonicwall.com/solutions/quantum-safe/
+source_type: vendor_announcement
+last_verified_date: '2026-04-08'
+verified_by: CyberTrust Analyst

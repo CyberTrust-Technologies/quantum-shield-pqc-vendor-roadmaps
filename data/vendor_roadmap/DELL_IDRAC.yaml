@@ -1,0 +1,18 @@
+device_type: DELL_IDRAC
+vendor: Dell Technologies
+product: iDRAC
+pqc_status: TBD
+pqc_plan: iDRAC9 firmware 6.x adds TLS 1.3. PQC certificate support not yet announced.
+hybrid_ready_version: TBD
+full_pqc_version: TBD
+algorithms_supported: []
+eta: TBD
+recommended_actions:
+  - Update iDRAC firmware to latest 6.x release
+  - Enable TLS 1.3 in iDRAC network security settings
+  - Replace default self-signed certificate with CA-issued certificate
+  - Monitor Dell PowerEdge firmware release notes for PQC roadmap
+source_url: https://www.dell.com/support/kbdoc/en-us/000178016
+source_type: vendor_announcement
+last_verified_date: 2026-04-08
+verified_by: cybertrust

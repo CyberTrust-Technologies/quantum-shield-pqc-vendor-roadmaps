@@ -1,0 +1,15 @@
+device_type: CHECK_POINT
+vendor: Check Point Software
+product: Quantum Security Gateway
+pqc_status: In Progress
+pqc_plan: R82+ (planned 2025)
+hybrid_ready_version: R82 (ML-KEM hybrid in IPsec VPN)
+full_pqc_version: R82+ (planned 2025)
+algorithms_supported: ML-KEM, ML-DSA (planned)
+eta: R82+ (planned 2025)
+recommended_actions: Track Check Point Software PQC announcements; plan upgrade once
+  R82+ (planned 2025) ships.
+source_url: https://www.checkpoint.com/quantum/post-quantum-cryptography/
+source_type: vendor_announcement
+last_verified_date: '2026-04-08'
+verified_by: CyberTrust Analyst

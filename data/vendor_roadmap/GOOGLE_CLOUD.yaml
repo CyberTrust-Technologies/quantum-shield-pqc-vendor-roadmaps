@@ -1,0 +1,15 @@
+device_type: GOOGLE_CLOUD
+vendor: Google Cloud
+product: Cloud KMS / GCP TLS
+pqc_status: Available
+pqc_plan: Cloud KMS ML-DSA signing available 2025
+hybrid_ready_version: ISO 14888
+full_pqc_version: Cloud KMS ML-DSA signing available 2025
+algorithms_supported: SPHINCS+
+eta: Cloud KMS ML-DSA signing available 2025
+recommended_actions: Track Google Cloud PQC announcements; plan upgrade once Cloud
+  KMS ML-DSA signing available 2025 ships.
+source_url: https://cloud.google.com/blog/products/identity-security/how-google-is-preparing-for-a-post-quantum-world
+source_type: auto_aggregated
+last_verified_date: '2026-04-08'
+verified_by: CQS Autosync

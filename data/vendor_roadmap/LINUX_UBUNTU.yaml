@@ -1,0 +1,19 @@
+device_type: LINUX_UBUNTU
+vendor: Canonical
+product: Ubuntu Server
+pqc_status: Experimental
+pqc_plan: Ubuntu 24.10 ships OpenSSL 3.3 with ML-KEM. Ubuntu 26.04 LTS = production PQC.
+hybrid_ready_version: Ubuntu 24.10 (OpenSSL 3.3)
+full_pqc_version: Ubuntu 26.04 LTS (planned 2026)
+algorithms_supported:
+  - ML-KEM-768
+eta: "2026"
+recommended_actions:
+  - Upgrade to Ubuntu 24.10+ for OpenSSL 3.3 ML-KEM support
+  - Enable TLS 1.3 system-wide via /etc/ssl/openssl.cnf
+  - Install liboqs-dev for experimental PQC algorithm testing
+  - Plan upgrade to Ubuntu 26.04 LTS for production PQC deployment
+source_url: https://ubuntu.com/security/post-quantum-cryptography
+source_type: vendor_announcement
+last_verified_date: 2026-04-08
+verified_by: cybertrust

@@ -1,0 +1,15 @@
+device_type: DIGICERT
+vendor: DigiCert
+product: CertCentral / Trust Lifecycle Manager
+pqc_status: Available
+pqc_plan: Production hybrid PQC certs available 2025
+hybrid_ready_version: Available now (hybrid PQC certs in pilot)
+full_pqc_version: Production hybrid PQC certs available 2025
+algorithms_supported: ML-DSA (Dilithium), SLH-DSA, ML-KEM
+eta: Production hybrid PQC certs available 2025
+recommended_actions: Track DigiCert PQC announcements; plan upgrade once Production
+  hybrid PQC certs available 2025 ships.
+source_url: https://www.digicert.com/blog/digicert-post-quantum-cryptography
+source_type: vendor_announcement
+last_verified_date: '2026-04-08'
+verified_by: CyberTrust Analyst

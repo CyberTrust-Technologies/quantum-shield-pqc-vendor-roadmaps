@@ -1,0 +1,19 @@
+device_type: CITRIX_ADC
+vendor: Citrix / Cloud Software Group
+product: NetScaler ADC
+pqc_status: Available
+pqc_plan: NetScaler 14.x adds PQC evaluation. Full support planned for 15.x (2025).
+hybrid_ready_version: TLS 1.3
+full_pqc_version: NetScaler 15.x (planned 2025)
+algorithms_supported:
+- ML-KEM (evaluation)
+eta: '2025'
+recommended_actions:
+- Upgrade to NetScaler 14.1+ for PQC evaluation capabilities
+- Enable TLS 1.3 on all vServer SSL profiles
+- Remove weak ciphers (RC4, 3DES, DES, NULL) from all profiles
+- Plan hybrid certificate deployment for ADC virtual servers
+source_url: https://docs.netscaler.com/en-us/citrix-adc/current-release/ssl.html
+source_type: auto_aggregated
+last_verified_date: '2026-04-08'
+verified_by: CQS Autosync

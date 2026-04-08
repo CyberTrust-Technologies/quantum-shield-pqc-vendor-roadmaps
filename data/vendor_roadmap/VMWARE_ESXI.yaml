@@ -1,0 +1,18 @@
+device_type: VMWARE_ESXI
+vendor: VMware / Broadcom
+product: vSphere ESXi
+pqc_status: Roadmap
+pqc_plan: vSphere 9.0 expected to include PQC-ready TLS. No ESXi-specific timeline yet.
+hybrid_ready_version: vSphere 9.0 (planned)
+full_pqc_version: TBD
+algorithms_supported: []
+eta: TBD
+recommended_actions:
+  - Update ESXi firmware to latest 8.x release
+  - Enable TLS 1.2+ minimum on all management interfaces
+  - Replace self-signed certificates with CA-issued certificates
+  - Monitor VMware/Broadcom roadmap for vSphere 9.x PQC announcement
+source_url: https://www.vmware.com/products/vsphere.html
+source_type: vendor_announcement
+last_verified_date: 2026-04-08
+verified_by: cybertrust

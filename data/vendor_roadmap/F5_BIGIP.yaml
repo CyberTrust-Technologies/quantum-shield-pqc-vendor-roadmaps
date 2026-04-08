@@ -1,0 +1,20 @@
+device_type: F5_BIGIP
+vendor: F5 Networks
+product: BIG-IP
+pqc_status: Available
+pqc_plan: F5 BIG-IP 17.x adds experimental PQC. Full hybrid PQC in BIG-IP 18.x (2025-2026).
+hybrid_ready_version: RFC 8998
+full_pqc_version: BIG-IP 18.x (planned 2025-2026)
+algorithms_supported: ML-DSA
+eta: '2026'
+recommended_actions:
+- Upgrade to BIG-IP 17.1+ for experimental PQC cipher support
+- Enable TLS 1.3 on all virtual server SSL profiles
+- Replace RSA-2048 certs with RSA-4096 or ECDSA P-384 as interim step
+- Monitor TMOS 18.x release for X25519Kyber768 hybrid support
+- Audit all SSL profiles for RC4, 3DES, NULL ciphers and remove them
+- Plan certificate lifecycle automation for PQC migration
+source_url: https://my.f5.com/manage/s/article/K000148209
+source_type: auto_aggregated
+last_verified_date: '2026-04-08'
+verified_by: CQS Autosync
