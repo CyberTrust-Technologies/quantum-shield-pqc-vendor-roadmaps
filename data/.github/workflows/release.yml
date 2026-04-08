@@ -1,0 +1,53 @@
+name: Release Roadmap Bundle
+on:
+  push:
+    branches: [main]
+    paths: ['data/**.yaml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate YAML
+        run: |
+          python3 -m pip install pyyaml
+          python3 -c "
+          import yaml, glob, sys
+          required = {'device_type','vendor','product','pqc_status','pqc_plan','hybrid_ready_version','full_pqc_version','recommended_actions','source_url','last_verified_date'}
+          ok = True
+          for f in sorted(glob.glob('data/*.yaml')):
+              d = yaml.safe_load(open(f))
+              missing = required - set(d.keys())
+              if missing:
+                  print(f'FAIL {f}: missing {missing}'); ok = False
+              else:
+                  print(f'OK {f}')
+          sys.exit(0 if ok else 1)
+          "
+      - name: Build tarball
+        run: |
+          VERSION=$(date -u +%Y.%m.%d-%H%M%S)
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          tar -czf pqc-roadmaps-${VERSION}.tar.gz -C data .
+          sha256sum pqc-roadmaps-${VERSION}.tar.gz > pqc-roadmaps-${VERSION}.tar.gz.sha256
+          cp pqc-roadmaps-${VERSION}.tar.gz pqc-roadmaps-latest.tar.gz
+          cp pqc-roadmaps-${VERSION}.tar.gz.sha256 pqc-roadmaps-latest.tar.gz.sha256
+      - name: Publish versioned release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ env.VERSION }}
+          name: Roadmap ${{ env.VERSION }}
+          files: |
+            pqc-roadmaps-${{ env.VERSION }}.tar.gz
+            pqc-roadmaps-${{ env.VERSION }}.tar.gz.sha256
+      - name: Publish latest release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest
+          files: |
+            pqc-roadmaps-latest.tar.gz
+            pqc-roadmaps-latest.tar.gz.sha256
