@@ -5,7 +5,7 @@ pqc_status: Available
 pqc_plan: RHEL 9.4+ has OpenSSL 3.2 with experimental PQC via OQS provider. RHEL 10
   = full support.
 hybrid_ready_version: RFC 8998
-full_pqc_version: RHEL 10 (planned 2025)
+full_pqc_version: '10.0'
 algorithms_supported: ML-DSA
 eta: '2025'
 recommended_actions:
@@ -15,5 +15,5 @@ recommended_actions:
 - Plan RHEL 10 upgrade path for full production PQC support
 source_url: https://access.redhat.com/articles/7055145
 source_type: auto_aggregated
-last_verified_date: '2026-04-08'
+last_verified_date: '2026-04-14'
 verified_by: CQS Autosync

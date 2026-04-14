@@ -3,8 +3,8 @@ vendor: Cisco Systems
 product: IOS-XE / ASA / Firepower
 pqc_status: In Progress
 pqc_plan: IOS-XE 18.x (planned 2025), ASA TBD
-hybrid_ready_version: IOS-XE 17.12+ (ML-KEM hybrid in IPsec/TLS)
-full_pqc_version: IOS-XE 18.x (planned 2025), ASA TBD
+hybrid_ready_version: "17.12"
+full_pqc_version: "18.0"
 algorithms_supported: ML-KEM, ML-DSA, X25519MLKEM768
 eta: IOS-XE 18.x (planned 2025), ASA TBD
 recommended_actions: Track Cisco Systems PQC announcements; plan upgrade once IOS-XE

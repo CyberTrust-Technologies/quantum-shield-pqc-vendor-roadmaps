@@ -3,8 +3,8 @@ vendor: Venafi
 product: TLS Protect / Machine Identity
 pqc_status: In Progress
 pqc_plan: TLS Protect 25.x (planned 2025)
-hybrid_ready_version: TLS Protect 24.2+ (PQC certificate discovery and lifecycle)
-full_pqc_version: TLS Protect 25.x (planned 2025)
+hybrid_ready_version: "24.2"
+full_pqc_version: "25.0"
 algorithms_supported: ML-DSA, ML-KEM (orchestration)
 eta: TLS Protect 25.x (planned 2025)
 recommended_actions: Track Venafi PQC announcements; plan upgrade once TLS Protect

@@ -3,7 +3,7 @@ vendor: Entrust
 product: nShield HSM
 pqc_status: Available
 pqc_plan: Available now
-hybrid_ready_version: nShield 12.40+ (ML-KEM, ML-DSA)
+hybrid_ready_version: "12.40"
 full_pqc_version: Available now
 algorithms_supported: ML-KEM, ML-DSA, SLH-DSA, XMSS
 eta: Available now

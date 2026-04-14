@@ -3,7 +3,7 @@ vendor: Cisco Systems
 product: Identity Services Engine (ISE)
 pqc_status: Roadmap
 pqc_plan: TBD -- follows Cisco IOS-XE timeline
-hybrid_ready_version: ISE 3.4+ (TLS 1.3 enforcement, PQC TBD)
+hybrid_ready_version: "3.4"
 full_pqc_version: TBD -- follows Cisco IOS-XE timeline
 algorithms_supported: TBD
 eta: TBD -- follows Cisco IOS-XE timeline

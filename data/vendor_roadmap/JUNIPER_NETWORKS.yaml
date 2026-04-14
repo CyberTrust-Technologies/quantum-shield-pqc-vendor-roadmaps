@@ -3,8 +3,8 @@ vendor: Juniper Networks
 product: Junos OS / SRX
 pqc_status: In Progress
 pqc_plan: Junos 24.x (planned 2025)
-hybrid_ready_version: Junos 23.4+ (ML-KEM hybrid IPsec)
-full_pqc_version: Junos 24.x (planned 2025)
+hybrid_ready_version: "23.4"
+full_pqc_version: "24.0"
 algorithms_supported: ML-KEM, ML-DSA
 eta: Junos 24.x (planned 2025)
 recommended_actions: Track Juniper Networks PQC announcements; plan upgrade once Junos

@@ -3,8 +3,8 @@ vendor: Microsoft
 product: Active Directory Certificate Services
 pqc_status: Available
 pqc_plan: Available now on Server 2025
-hybrid_ready_version: Windows Server 2025 ADCS (ML-DSA signing available)
-full_pqc_version: Available now on Server 2025
+hybrid_ready_version: "2025"
+full_pqc_version: "2025"
 algorithms_supported: ML-DSA (Dilithium), ML-KEM
 eta: Available now on Server 2025
 recommended_actions: Track Microsoft PQC announcements; plan upgrade once Available

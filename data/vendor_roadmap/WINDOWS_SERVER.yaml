@@ -3,8 +3,8 @@ vendor: Microsoft
 product: Windows Server
 pqc_status: Available
 pqc_plan: Windows Server 2025 includes ML-KEM (Kyber) in TLS 1.3 via Schannel.
-hybrid_ready_version: Windows Server 2025
-full_pqc_version: Windows Server 2025+ (available now)
+hybrid_ready_version: "2025"
+full_pqc_version: "2025"
 algorithms_supported:
   - ML-KEM-768
   - ML-KEM-1024

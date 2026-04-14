@@ -3,7 +3,7 @@ vendor: VMware / Broadcom
 product: vSphere ESXi
 pqc_status: Roadmap
 pqc_plan: vSphere 9.0 expected to include PQC-ready TLS. No ESXi-specific timeline yet.
-hybrid_ready_version: vSphere 9.0 (planned)
+hybrid_ready_version: "9.0"
 full_pqc_version: TBD
 algorithms_supported: []
 eta: TBD

@@ -3,8 +3,8 @@ vendor: Canonical
 product: Ubuntu Server
 pqc_status: Experimental
 pqc_plan: Ubuntu 24.10 ships OpenSSL 3.3 with ML-KEM. Ubuntu 26.04 LTS = production PQC.
-hybrid_ready_version: Ubuntu 24.10 (OpenSSL 3.3)
-full_pqc_version: Ubuntu 26.04 LTS (planned 2026)
+hybrid_ready_version: "24.10"
+full_pqc_version: "26.04"
 algorithms_supported:
   - ML-KEM-768
 eta: "2026"

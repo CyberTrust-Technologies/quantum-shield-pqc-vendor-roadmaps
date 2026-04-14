@@ -3,7 +3,7 @@ vendor: Aruba Networks / HPE
 product: ArubaOS / ClearPass
 pqc_status: Roadmap
 pqc_plan: TBD (2026)
-hybrid_ready_version: ArubaOS 10.6+ (TLS 1.3 enforcement)
+hybrid_ready_version: "10.6"
 full_pqc_version: TBD (2026)
 algorithms_supported: TBD
 eta: TBD (2026)

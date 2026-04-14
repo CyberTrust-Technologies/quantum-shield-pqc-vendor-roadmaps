@@ -3,7 +3,7 @@ vendor: Utimaco
 product: SecurityServer / u.trust Anchor
 pqc_status: Available
 pqc_plan: Available now
-hybrid_ready_version: SecurityServer 5.2+ (ML-KEM, ML-DSA via PQC SDK)
+hybrid_ready_version: "5.2"
 full_pqc_version: Available now
 algorithms_supported: ML-KEM, ML-DSA, SLH-DSA, BIKE, HQC
 eta: Available now

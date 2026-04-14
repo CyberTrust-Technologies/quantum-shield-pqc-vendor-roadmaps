@@ -3,8 +3,8 @@ vendor: Fortinet
 product: FortiGate / FortiOS
 pqc_status: Available
 pqc_plan: FortiOS 8.x (planned 2025-2026)
-hybrid_ready_version: FortiOS 7.4.4+ (X25519Kyber768 in SSL-VPN and IPsec)
-full_pqc_version: FortiOS 8.x (planned 2025-2026)
+hybrid_ready_version: "7.4.4"
+full_pqc_version: "8.0"
 algorithms_supported: ML-KEM (Kyber-768), ML-DSA (planned)
 eta: FortiOS 8.x (planned 2025-2026)
 recommended_actions: Track Fortinet PQC announcements; plan upgrade once FortiOS 8.x

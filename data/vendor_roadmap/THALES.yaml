@@ -3,7 +3,7 @@ vendor: Thales
 product: Luna HSM / CipherTrust
 pqc_status: Available
 pqc_plan: Available now
-hybrid_ready_version: Luna HSM 7.8+ (ML-KEM, ML-DSA); CipherTrust 2.13+
+hybrid_ready_version: "7.8"
 full_pqc_version: Available now
 algorithms_supported: ML-KEM, ML-DSA, SLH-DSA, BIKE, HQC
 eta: Available now

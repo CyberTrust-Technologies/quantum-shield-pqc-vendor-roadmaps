@@ -3,7 +3,7 @@ vendor: Entrust
 product: PKI / nShield HSM
 pqc_status: Available
 pqc_plan: Available now
-hybrid_ready_version: nShield HSM 12.40+ (ML-KEM, ML-DSA), PKI Hub 2.1+
+hybrid_ready_version: "12.40"
 full_pqc_version: Available now
 algorithms_supported: ML-KEM, ML-DSA, SLH-DSA, XMSS
 eta: Available now

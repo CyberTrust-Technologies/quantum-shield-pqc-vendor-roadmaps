@@ -3,8 +3,8 @@ vendor: Palo Alto Networks
 product: PAN-OS / NGFW
 pqc_status: In Progress
 pqc_plan: PAN-OS 12.x (planned 2025-2026)
-hybrid_ready_version: PAN-OS 11.1+ (TLS 1.3 with hybrid PQC in evaluation)
-full_pqc_version: PAN-OS 12.x (planned 2025-2026)
+hybrid_ready_version: "11.1"
+full_pqc_version: "12.0"
 algorithms_supported: ML-KEM (planned), ML-DSA (planned)
 eta: PAN-OS 12.x (planned 2025-2026)
 recommended_actions: Track Palo Alto Networks PQC announcements; plan upgrade once
