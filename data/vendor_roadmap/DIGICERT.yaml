@@ -11,5 +11,5 @@ recommended_actions: Track DigiCert PQC announcements; plan upgrade once Product
   hybrid PQC certs available 2025 ships.
 source_url: https://www.digicert.com/blog/digicert-post-quantum-cryptography
 source_type: auto_aggregated
-last_verified_date: '2026-04-14'
+last_verified_date: '2026-04-15'
 verified_by: CQS Autosync
