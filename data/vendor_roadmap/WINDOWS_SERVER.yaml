@@ -3,18 +3,18 @@ vendor: Microsoft
 product: Windows Server
 pqc_status: Available
 pqc_plan: Windows Server 2025 includes ML-KEM (Kyber) in TLS 1.3 via Schannel.
-hybrid_ready_version: "2025"
-full_pqc_version: "2025"
+hybrid_ready_version: TLS 1.3
+full_pqc_version: '2025'
 algorithms_supported:
-  - ML-KEM-768
-  - ML-KEM-1024
+- ML-KEM-768
+- ML-KEM-1024
 eta: Available
 recommended_actions:
-  - Upgrade to Windows Server 2025 for native ML-KEM PQC support
-  - Enable ML-KEM hybrid via Group Policy (Computer Config > Schannel)
-  - Deploy hybrid PKI with ADCS issuing dual RSA+ML-DSA certificates
-  - Enforce TLS 1.3 minimum on all services via registry or GPO
+- Upgrade to Windows Server 2025 for native ML-KEM PQC support
+- Enable ML-KEM hybrid via Group Policy (Computer Config > Schannel)
+- Deploy hybrid PKI with ADCS issuing dual RSA+ML-DSA certificates
+- Enforce TLS 1.3 minimum on all services via registry or GPO
 source_url: https://learn.microsoft.com/en-us/windows-server/get-started/whats-new-windows-server-2025
-source_type: vendor_announcement
-last_verified_date: 2026-04-08
-verified_by: cybertrust
+source_type: auto_aggregated
+last_verified_date: '2026-04-16'
+verified_by: CQS Autosync
